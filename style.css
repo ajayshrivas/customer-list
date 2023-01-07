@@ -1,0 +1,71 @@
+.todo_list_wraper {
+    text-align: center;
+    /* margin-top: 200px; */
+    background-color: lightblue;
+    height: 100vh;
+    padding: 241px;
+}
+.todo_fileds {
+    border: 3px solid;
+    padding: 75px;
+    border-color: gray;
+    padding-left: 25px;
+}
+.todo_customer_name {
+    width: 100%;
+}
+input#customer_name {
+    width: 500px;
+    height: 41px;
+    font-size: 24px;
+    font-weight: 800;
+}
+input#mobile_number {
+    width: 500px;
+    height: 41px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 21px;
+}
+textarea#massage {
+    width: 500px;
+    height: 94px;
+    padding: 5px;
+    margin-top: 21px;
+    font-size: 24px;
+    font-weight: 800;
+}
+button#add_customer {
+    width: 250px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: blanchedalmond;
+    margin-top: 12px;
+}
+div#todo_customer_list {
+    margin: 12px;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+tr:hover {background-color: coral;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+th {
+    background-color: blanchedalmond;
+    color: rgb(151, 28, 28);
+  }
+.todo_customer_name {
+    width: 100%;
+    padding: 11px;
+}
+
+.todo_mobile_number {
+    padding-left: 23px;
+}
+div#todo_customer_list {
+    padding-left: 25%;
+    padding-right: 25%;
+}
